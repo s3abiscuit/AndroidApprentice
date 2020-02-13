@@ -1,0 +1,96 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cfca00bb267ec7ec9e8e5b5e03b7fe3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1cd1c9bf65c07f4dcb0f1d103478485c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c4a2341262960f4a7ebd8fbd3053c3a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bb146bb6d6b03c647e0fea72b39f32e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f8e45bab9a5298e6f8a80578ad694648/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ad04247bd98d538926c8e8c6860c6fbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5220881c05b92d11b0fb990b50ef71e6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/61b89ae08ddde972d0d4c5d2e69008b6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d50dee0c0702ec2ed3d95d319e59614b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3b0f38e4a855819accc66a57435f6c2a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c366fb34a36f1001f5684315a42794f0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+	package
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:18:5-45
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:1-34:12
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:17:11-69
+application
+ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:20:5-32:19
+	android:supportsRtl
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:25:9-40
+activity#com.example.android.SimpleCalc.MainActivity
+ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:26:9-31:20
+	android:name
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:26:19-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cfca00bb267ec7ec9e8e5b5e03b7fe3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/cfca00bb267ec7ec9e8e5b5e03b7fe3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1cd1c9bf65c07f4dcb0f1d103478485c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/1cd1c9bf65c07f4dcb0f1d103478485c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c4a2341262960f4a7ebd8fbd3053c3a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c4a2341262960f4a7ebd8fbd3053c3a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bb146bb6d6b03c647e0fea72b39f32e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bb146bb6d6b03c647e0fea72b39f32e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f8e45bab9a5298e6f8a80578ad694648/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f8e45bab9a5298e6f8a80578ad694648/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ad04247bd98d538926c8e8c6860c6fbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ad04247bd98d538926c8e8c6860c6fbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5220881c05b92d11b0fb990b50ef71e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5220881c05b92d11b0fb990b50ef71e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/61b89ae08ddde972d0d4c5d2e69008b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/61b89ae08ddde972d0d4c5d2e69008b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d50dee0c0702ec2ed3d95d319e59614b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d50dee0c0702ec2ed3d95d319e59614b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3b0f38e4a855819accc66a57435f6c2a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3b0f38e4a855819accc66a57435f6c2a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c366fb34a36f1001f5684315a42794f0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/s3abiscuit/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c366fb34a36f1001f5684315a42794f0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+		ADDED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/s3abiscuit/code/github/AndroidApprentice/06SimpleCalcTest/app/src/main/AndroidManifest.xml
