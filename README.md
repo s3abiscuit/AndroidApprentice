@@ -117,32 +117,28 @@ switch (item.getItemId()) {
         drawer.closeDrawer(GravityCompat.START);
         displayToast(getString(R.string.chose_camera));
         return true;
-    case R.id.nav_gallery:
-        // Handle the gallery action (for now display a toast).
-        drawer.closeDrawer(GravityCompat.START);
-        displayToast(getString(R.string.chose_gallery));
-        return true;
-    case R.id.nav_slideshow:
-        // Handle the slideshow action (for now display a toast).
-        drawer.closeDrawer(GravityCompat.START);
-        displayToast(getString(R.string.chose_slideshow));
-        return true;
-    case R.id.nav_manage:
-        // Handle the tools action (for now display a toast).
-        drawer.closeDrawer(GravityCompat.START);
-        displayToast(getString(R.string.chose_tools));
-        return true;
-    case R.id.nav_share:
-        // Handle the share action (for now display a toast).
-        drawer.closeDrawer(GravityCompat.START);
-        displayToast(getString(R.string.chose_share));
-        return true;
-    case R.id.nav_send:
-        // Handle the send action (for now display a toast).
-        drawer.closeDrawer(GravityCompat.START);
-        displayToast(getString(R.string.chose_send));
-        return true;
+    ...
     default:
         return false;
 }
 ```
+
+## 11RecycleView
+
+**使用RecycleView**
+
+最主要的是处理好两个内部类Adapter和ViewHolder的实现. 
+
+ViewHolder内部包含子项View. 
+Adapter负责创建ViewHolder并将数据传给ViewHolder
+
+1. xml设置控件
+2. Activity获取控件
+3. **设置Adapter**(绑定子项控件和数据)
+4. 设置LayoutManager控制数据的展示方式
+
+
+
+
+
+
