@@ -50,3 +50,22 @@ tabLayout.addOnTabSelectedListener(
 });
 ```
 
+
+## 10NavDrawerExperiment
+
+使用到的控件: DrawerLayout, NavigationView, CoordinatorLayout
+
+控件层级
+
+- **DrawerLayout**
+    - CoordinatorLayout
+        - AppBarLayout(include, app_bar_main.xml)
+            - **Toolbar**
+        - RelativeLayout(include, activity_main.xml)
+            - **TextView**
+        - **FloatingActionButton**
+    - **NavigationView**
+
+
+
+
