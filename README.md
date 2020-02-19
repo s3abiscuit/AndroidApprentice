@@ -68,4 +68,81 @@ tabLayout.addOnTabSelectedListener(
 
 
 
+**DrawerLayout使用**
 
+1. 设置为activity_main的根控件
+2. 设置ActionBarDrawerToggle控制Drawer的打开关闭
+3. 覆盖onBackPressed()实现点击返回按钮关闭Drawer
+
+```java
+DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+        this, drawer, toolbar, R.string.navigation_drawer_open,
+        R.string.navigation_drawer_close);
+if (drawer != null) {
+    drawer.addDrawerListener(toggle);
+}
+toggle.syncState();
+```
+
+**NavigationView的使用**
+
+1. xml中设置menu
+2. activity中设置menu点击监听
+3. 覆写监听的动作
+
+```xml
+<android.support.design.widget.NavigationView
+android:id="@+id/nav_view"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:layout_gravity="start"
+android:fitsSystemWindows="true"
+app:headerLayout="@layout/nav_header_main"
+app:menu="@menu/activity_main_drawer" />
+```
+
+```java
+NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+if (navigationView != null) {
+    navigationView.setNavigationItemSelectedListener(this);   
+}
+
+public boolean onNavigationItemSelected(MenuItem item) {
+DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+// Handle navigation view item clicks here.
+switch (item.getItemId()) {
+    case R.id.nav_camera:
+        // Handle the camera import action (for now display a toast).
+        drawer.closeDrawer(GravityCompat.START);
+        displayToast(getString(R.string.chose_camera));
+        return true;
+    case R.id.nav_gallery:
+        // Handle the gallery action (for now display a toast).
+        drawer.closeDrawer(GravityCompat.START);
+        displayToast(getString(R.string.chose_gallery));
+        return true;
+    case R.id.nav_slideshow:
+        // Handle the slideshow action (for now display a toast).
+        drawer.closeDrawer(GravityCompat.START);
+        displayToast(getString(R.string.chose_slideshow));
+        return true;
+    case R.id.nav_manage:
+        // Handle the tools action (for now display a toast).
+        drawer.closeDrawer(GravityCompat.START);
+        displayToast(getString(R.string.chose_tools));
+        return true;
+    case R.id.nav_share:
+        // Handle the share action (for now display a toast).
+        drawer.closeDrawer(GravityCompat.START);
+        displayToast(getString(R.string.chose_share));
+        return true;
+    case R.id.nav_send:
+        // Handle the send action (for now display a toast).
+        drawer.closeDrawer(GravityCompat.START);
+        displayToast(getString(R.string.chose_send));
+        return true;
+    default:
+        return false;
+}
+```
