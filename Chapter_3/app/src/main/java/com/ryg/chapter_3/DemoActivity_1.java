@@ -19,6 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 
+// 外部拦截示例
 public class DemoActivity_1 extends Activity {
     private static final String TAG = "DemoActivity_1";
 

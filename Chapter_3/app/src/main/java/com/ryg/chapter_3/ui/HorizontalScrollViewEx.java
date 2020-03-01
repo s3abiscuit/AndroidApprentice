@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Scroller;
 
+// 外部拦截示例
 public class HorizontalScrollViewEx extends ViewGroup {
     private static final String TAG = "HorizontalScrollViewEx";
 
@@ -54,6 +55,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
         int y = (int) event.getY();
 
         switch (event.getAction()) {
+        // 默认 ACTION_DOWN 不拦截, 因为如果拦截后面就全部拦截了
         case MotionEvent.ACTION_DOWN: {
             intercepted = false;
             if (!mScroller.isFinished()) {

@@ -1,4 +1,4 @@
-#Sat Feb 29 20:08:53 CST 2020
-base.0=/Users/s3abiscuit/code/androidspace/art/Chapter_3/app/build/intermediates/dex/debug/out/classes.dex
+#Sun Mar 01 23:01:02 CST 2020
+base.0=/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_3/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
