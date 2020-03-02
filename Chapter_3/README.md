@@ -33,3 +33,21 @@ ListView的dispatchTouchEvent处理DOWN`(requestDisallowInterceptTouchEvent(true
 ListView的dispatchTouchEvent处理DOWN`(requestDisallowInterceptTouchEvent(true))`
 - MOVE: HorizontalScrollViewEx的onInterceptTouchEvent走不到, 结果是不拦截, 这时候ListView的dispatchTouchEvent继续处理MOVE, 并且消耗MOVE
 - UP: HorizontalScrollViewEx的onInterceptTouchEvent走不到, 结果是不拦截, 这时候ListView的dispatchTouchEvent消耗UP
+
+| 外部拦截 dx>dy | onInterceptTouchEvent | intercepted | OnTouchEvent   | dispatchTouchEvent | requestDisallowInterceptTouchEvent | OnTouchEvent |
+| -------------- | --------------------- | ----------- | -------------- | ------------------ | ---------------------------------- | ------------ |
+| DOWN           | 执行, 返回false       | false       | 不执行         | 执行               | 无                                 | 执行         |
+| MOVE           | 执行, 返回true        | true        | 执行           | 不执行             | 无                                 | 不执行       |
+| UP             | 不执行                | true        | 执行           | 不执行             | 无                                 | 不执行       |
+| 外部拦截dx<dy  |                       |             |                |                    |                                    |              |
+| DOWN           | 执行, 返回false       | false       | 不执行         | 执行               | 无                                 | 执行         |
+| MOVE           | 执行, 返回false       | false       | 不执行         | 执行               | 无                                 | 执行         |
+| UP             | 执行, 返回false       | false       | 不执行         | 执行               | 无                                 | 执行         |
+| 内部拦截dx>dy  |                       |             |                |                    |                                    |              |
+| DOWN           | 执行, 返回false       | false       | 不执行         | 执行               | 传入true                           | 执行         |
+| MOVE           | 不执行,               | false       | 执行(子不处理) | 执行               | 传入false                          | 不执行       |
+| UP             | 执行, 返回true        | true        | 执行           | 不执行             | 不执行                             | 不执行       |
+| 内部拦截dx<dy  |                       |             |                |                    |                                    |              |
+| DOWN           | 执行, 返回false       | false       | 不执行         | 执行               | 传入true                           | 执行         |
+| MOVE           | 不执行                | false       | 不执行         | 执行               | 传入true                           | 执行         |
+| UP             | 不执行                | false       | 不执行         | 执行               | 不执行                             | 执行         |
