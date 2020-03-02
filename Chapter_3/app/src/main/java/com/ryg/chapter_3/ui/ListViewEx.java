@@ -39,6 +39,9 @@ public class ListViewEx extends ListView {
 
         switch (event.getAction()) {
         case MotionEvent.ACTION_DOWN: {
+            // 这段代码很关键, 让这个 View 夺取了事件处理的控制权, 
+            // 它过将isallowInterceptTouchEvent标记为true进而使HorizontalScrollViewEx2的intercepted为false
+            // 因为虽然 setHorizontalScrollViewEx2拦截事件, 但是需要 isallowInterceptTouchEvent 标记为 false
             mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(true);
             break;
         }
