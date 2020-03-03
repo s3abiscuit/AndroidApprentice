@@ -51,3 +51,20 @@ ListView的dispatchTouchEvent处理DOWN`(requestDisallowInterceptTouchEvent(true
 | DOWN           | 执行, 返回false       | false       | 不执行         | 执行               | 传入true                           | 执行         |
 | MOVE           | 不执行                | false       | 不执行         | 执行               | 传入true                           | 执行         |
 | UP             | 不执行                | false       | 不执行         | 执行               | 不执行                             | 执行         |
+
+
+## measure过程
+
+
+
+- ViewGroup.measure(MeasureSpec)
+
+- ViewGroup.onMeasure(MeasureSpec)
+    - measureChildren
+        - measureChild(MeasureSpec, childLayoutParams)
+            - View.measure(childMeasureSpec)
+                - View.onMeasure(childMeasureSpec)
+                    - View.setMeasureDimention(measureWidth, measureHeight)
+    - ViewGroup.setMeasureDimention
+        - wrap_content情况
+        - match_parent情况
