@@ -61,7 +61,7 @@ ListView的dispatchTouchEvent处理DOWN`(requestDisallowInterceptTouchEvent(true
 
 - ViewGroup.onMeasure(MeasureSpec)
     - measureChildren
-        - measureChild(MeasureSpec, childLayoutParams)
+        - measureChild(MeasureSpec, childLayoutParams) 确定View的MeasureSpec
             - View.measure(childMeasureSpec)
                 - View.onMeasure(childMeasureSpec)
                     - View.setMeasureDimention(measureWidth, measureHeight)
