@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_5/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,7,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "56,103,270,156,208",
+                        "endColumns": "46,52,60,51,61",
+                        "endOffsets": "98,151,326,203,265"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "150,197,250,311,363",
+                        "endColumns": "46,52,60,51,61",
+                        "endOffsets": "192,245,306,358,420"
+                    }
+                },
+                {
+                    "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_5/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "11,20,25,31,38",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "196,527,727,949,1237",
+                        "endLines": "17,22,29,36,41",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "486,684,941,1229,1402"
+                    },
+                    "to": {
+                        "startLines": "9,16,19,24,30",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "425,716,876,1091,1371",
+                        "endLines": "15,18,23,29,33",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "711,871,1086,1366,1533"
+                    }
+                },
+                {
+                    "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_5/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,56",
+                        "endColumns": "45,48",
+                        "endOffsets": "146,100"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,48",
+                        "endOffsets": "96,145"
+                    }
+                },
+                {
+                    "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_5/app/src/main/res/values/attrs.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "5",
+                        "endColumns": "24",
+                        "endOffsets": "170"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "1538",
+                        "endLines": "36",
+                        "endColumns": "24",
+                        "endOffsets": "1651"
+                    }
+                }
+            ]
+        }
+    ]
+}
