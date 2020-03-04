@@ -1,0 +1,4 @@
+#Wed Mar 04 20:05:01 CST 2020
+base.0=/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_6/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
