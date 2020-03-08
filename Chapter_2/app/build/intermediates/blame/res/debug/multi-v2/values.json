@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,10,6,5,7,9,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,103,514,227,156,303,443,372",
+                        "endColumns": "46,52,73,75,70,68,70,70",
+                        "endOffsets": "98,151,583,298,222,367,509,438"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "104,151,204,278,354,425,494,565",
+                        "endColumns": "46,52,73,75,70,68,70,70",
+                        "endOffsets": "146,199,273,349,420,489,560,631"
+                    }
+                },
+                {
+                    "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "48",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                },
+                {
+                    "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "11,20,25,31,36",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "196,527,727,949,1118",
+                        "endLines": "17,22,29,34,39",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "486,684,941,1110,1283"
+                    },
+                    "to": {
+                        "startLines": "11,18,21,26,30",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "636,927,1087,1302,1465",
+                        "endLines": "17,20,25,29,33",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "922,1082,1297,1460,1627"
+                    }
+                }
+            ]
+        }
+    ]
+}
