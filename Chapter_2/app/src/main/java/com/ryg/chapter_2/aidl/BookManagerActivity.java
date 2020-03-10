@@ -84,6 +84,7 @@ public class BookManagerActivity extends Activity {
 
         @Override
         public void onNewBookArrived(Book newBook) throws RemoteException {
+            // 运行在客户端的Binder线程池中, 如果需要UI操作需要Handler
             mHandler.obtainMessage(MESSAGE_NEW_BOOK_ARRIVED, newBook)
                     .sendToTarget();
         }
@@ -99,6 +100,7 @@ public class BookManagerActivity extends Activity {
 
     public void onButton1Click(View view) {
         Toast.makeText(this, "click button1", Toast.LENGTH_SHORT).show();
+        // 调用Server端线程池中的方法, 可能是耗时操作所以放在子线程中
         new Thread(new Runnable() {
 
             @Override
