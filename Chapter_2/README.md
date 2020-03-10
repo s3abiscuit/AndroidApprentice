@@ -7,6 +7,6 @@
 不仅如此ServeceImp内部还有一个Proxy内部类.
 
 1. Server需要提供服务由Binder实现, Client可以获取到Binder对象然后调用服务.(中间的数据传输已经被Android系统封装好了)
-2. Binder可以传输Binder对象, 这样进程直接服务的调用就是双向的
+2. Binder可以传输Binder对象, 这样进程之间服务的调用就是双向的
 3. Binder归属于特定进程
 4. Binder中的方法运行在Binder线程池中, 所以如果要更新UI可能需要借助于Hander, 同样如果在UI线程中发起远程服务调用最好也要开启在子线程中进行.
