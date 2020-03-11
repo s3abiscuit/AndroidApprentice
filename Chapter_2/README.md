@@ -18,3 +18,8 @@
 涉及 Server, Client, Service Manager, Binder驱动
 
 源码涉及cpp代码
+
+- https://www.cnblogs.com/innost/archive/2011/01/09/1931456.html
+- https://blog.csdn.net/universus/article/details/6211589
+- http://weishu.me/2016/01/12/binder-index-for-newer/
+- https://blog.csdn.net/luoshengyang/article/details/6618363
