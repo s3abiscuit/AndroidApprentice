@@ -4,6 +4,8 @@
 
 ## Widget中定义视图
 
+原理是广播接收
+
 widget的使用
 
 1. create AppWidgetProvider(a broadcast receiver)
