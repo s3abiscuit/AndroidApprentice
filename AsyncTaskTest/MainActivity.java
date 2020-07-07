@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //注意每次需new一个实例,新建的任务只能执行一次,否则会出现异常
                 mTask = new MyTask();
+		// 注意使用https
                 mTask.execute("https://www.baidu.com");
 
                 execute.setEnabled(false);
