@@ -1,54 +1,54 @@
 [
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-hdpi/ic_launcher.png"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-mdpi/ic_launcher.png"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_third.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_third.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_second.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_second.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_messenger.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_messenger.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_binder_pool.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_binder_pool.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_second.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_second.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_book_manager.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_book_manager.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_third.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_third.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_messenger.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_messenger.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_binder_pool.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_binder_pool.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_provider.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_provider.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable_edit.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable/edit.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_tcpclient.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_tcpclient.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_provider.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_provider.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable_edit.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable/edit.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_tcpclient.xml.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_tcpclient.xml"
     },
     {
-        "merged": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/layout_activity_book_manager.xml.flat",
-        "source": "/Users/s3abiscuit/code/github/AndroidApprentice/Chapter_2/app/src/main/res/layout/activity_book_manager.xml"
+        "merged": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/s3abiscuit/dev/github/AndroidApprentice/Chapter_2/app/src/main/res/drawable-hdpi/ic_launcher.png"
     }
 ]

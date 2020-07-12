@@ -50,6 +50,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent event) {
+        // ViewGroup 默认不拦截, 子 view 的 onTouchEvent 会消耗事件
         boolean intercepted = false;
         int x = (int) event.getX();
         int y = (int) event.getY();

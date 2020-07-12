@@ -45,6 +45,7 @@ public class ListViewEx extends ListView {
             mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(true);
             break;
         }
+        // ACTION_MOVE的处理由子view来负责
         case MotionEvent.ACTION_MOVE: {
             int deltaX = x - mLastX;
             int deltaY = y - mLastY;
