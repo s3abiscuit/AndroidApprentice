@@ -52,6 +52,7 @@ public class TestButton extends TextView {
             Log.d(TAG, "move, deltaX:" + deltaX + " deltaY:" + deltaY);
             int translationX = (int)ViewHelper.getTranslationX(this) + deltaX;
             int translationY = (int)ViewHelper.getTranslationY(this) + deltaY;
+            // 使用动画来实现view的滑动
             ViewHelper.setTranslationX(this, translationX);
             ViewHelper.setTranslationY(this, translationY);
             break;

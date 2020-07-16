@@ -41,6 +41,7 @@ public class TestActivity extends Activity implements OnClickListener,
                 if (mCount <= FRAME_COUNT) {
                     float fraction = mCount / (float) FRAME_COUNT;
                     int scrollX = (int) (fraction * 100);
+		    // scrollX是水平滑动的距离, 内容往左滑动为正
                     mButton1.scrollTo(scrollX, 0);
                     mHandler.sendEmptyMessageDelayed(MESSAGE_SCROLL_TO, DELAYED_TIME);
                 }
@@ -61,8 +62,10 @@ public class TestActivity extends Activity implements OnClickListener,
     }
 
     private void initView() {
+	// 延时的方式实现弹性滑动
         mButton1 = (Button) findViewById(R.id.button1);
         mButton1.setOnClickListener(this);
+	// 动画的方式实现弹性滑动
         mButton2 = (TextView) findViewById(R.id.button2);
         mButton2.setOnLongClickListener(this);
     }

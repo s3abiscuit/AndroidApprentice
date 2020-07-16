@@ -59,6 +59,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
         // 默认 ACTION_DOWN 不拦截, 因为如果拦截后面就全部拦截了
         case MotionEvent.ACTION_DOWN: {
             intercepted = false;
+	    // 这里考虑到上次的滑动还在继续, 这时候点击屏幕要停止滑动
             if (!mScroller.isFinished()) {
                 mScroller.abortAnimation();
                 intercepted = true;
@@ -116,6 +117,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
             mVelocityTracker.computeCurrentVelocity(1000);
             float xVelocity = mVelocityTracker.getXVelocity();
             if (Math.abs(xVelocity) >= 50) {
+		// xVelocity>0表示向右滑动, index减小
                 mChildIndex = xVelocity > 0 ? mChildIndex - 1 : mChildIndex + 1;
             } else {
                 mChildIndex = (scrollX + mChildWidth / 2) / mChildWidth;
