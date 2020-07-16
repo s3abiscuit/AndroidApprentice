@@ -110,6 +110,7 @@ public class MyAppWidgetProvider extends AppWidgetProvider {
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0,
                 intentClick, 0);
         remoteViews.setOnClickPendingIntent(R.id.imageView1, pendingIntent);
+        // 创建widget时加载remoteview
         appWidgeManger.updateAppWidget(appWidgetId, remoteViews);
     }
 
