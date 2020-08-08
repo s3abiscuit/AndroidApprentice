@@ -106,6 +106,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
             break;
         }
         case MotionEvent.ACTION_MOVE: {
+	    // delta 为正说行手指向右滑动
             int deltaX = x - mLastX;
             int deltaY = y - mLastY;
             scrollBy(-deltaX, 0);
