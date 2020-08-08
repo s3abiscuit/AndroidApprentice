@@ -21,6 +21,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+// 内部拦截法示例
 public class DemoActivity_2 extends Activity {
     private static final String TAG = "DemoActivity_2";
 
