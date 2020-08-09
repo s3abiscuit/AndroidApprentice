@@ -9,7 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Scroller;
 
-// 外部拦截示例
+/*
+外部拦截示例
+假设事件只有 down move up
+down 和 up 默认都不拦截
+move拦截后 up肯定会继续拦截
+ */
 public class HorizontalScrollViewEx extends ViewGroup {
     private static final String TAG = "HorizontalScrollViewEx";
 
@@ -76,6 +81,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
             }
             break;
         }
+        // ViewGroup 一旦拦截 后续全部拦截
         case MotionEvent.ACTION_UP: {
             intercepted = false;
             break;
@@ -118,7 +124,7 @@ public class HorizontalScrollViewEx extends ViewGroup {
             mVelocityTracker.computeCurrentVelocity(1000);
             float xVelocity = mVelocityTracker.getXVelocity();
             if (Math.abs(xVelocity) >= 50) {
-		// xVelocity>0表示向右滑动, index减小
+		        // xVelocity>0 表示向右滑动, index减小
                 mChildIndex = xVelocity > 0 ? mChildIndex - 1 : mChildIndex + 1;
             } else {
                 mChildIndex = (scrollX + mChildWidth / 2) / mChildWidth;

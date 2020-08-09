@@ -54,8 +54,10 @@ public class ListViewEx extends ListView {
                 int deltaY = y - mLastY;
                 Log.d(TAG, "dx:" + deltaX + " dy:" + deltaY);
                 if (Math.abs(deltaX) > Math.abs(deltaY)) {
-                    // 这里又将控制交给了 ViewGroup
+                    // 这里又将控制交给了 ViewGroup， 而且所有的事件全部都交给 ViewGroup 来处理
                     // 当前的这个 ACTION_MOVE 还是子 View 来处理
+                    // 因为后面的 super.dispatchTouchEvent()返回了true
+
                     mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(false);
                 }
                 break;
