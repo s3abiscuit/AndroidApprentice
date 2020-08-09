@@ -38,28 +38,35 @@ public class ListViewEx extends ListView {
         int y = (int) event.getY();
 
         switch (event.getAction()) {
-        case MotionEvent.ACTION_DOWN: {
-            // 这段代码很关键, 让这个 View 夺取了事件处理的控制权, 
-            // 它过将isallowInterceptTouchEvent标记为true进而使HorizontalScrollViewEx2的intercepted为false
-            // 因为虽然 setHorizontalScrollViewEx2拦截事件, 但是需要 isallowInterceptTouchEvent 标记为 false
-            mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(true);
-            break;
-        }
-        // ACTION_MOVE的处理由子view来负责
-        case MotionEvent.ACTION_MOVE: {
-            int deltaX = x - mLastX;
-            int deltaY = y - mLastY;
-            Log.d(TAG, "dx:" + deltaX + " dy:" + deltaY);
-            if (Math.abs(deltaX) > Math.abs(deltaY)) {
-                mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(false);
+            case MotionEvent.ACTION_DOWN: {
+                Log.d("VDP", "ACTION_DOWN");
+
+                // 这段代码很关键, 让这个 View 夺取了事件处理的控制权,
+                // 后续所有的事件都会由子 View 来处理
+                mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(true);
+                break;
             }
-            break;
-        }
-        case MotionEvent.ACTION_UP: {
-            break;
-        }
-        default:
-            break;
+            // ACTION_MOVE的处理由子view来负责
+            case MotionEvent.ACTION_MOVE: {
+                Log.d("VDP", "ACTION_MOVE");
+
+                int deltaX = x - mLastX;
+                int deltaY = y - mLastY;
+                Log.d(TAG, "dx:" + deltaX + " dy:" + deltaY);
+                if (Math.abs(deltaX) > Math.abs(deltaY)) {
+                    // 这里又将控制交给了 ViewGroup
+                    // 当前的这个 ACTION_MOVE 还是子 View 来处理
+                    mHorizontalScrollViewEx2.requestDisallowInterceptTouchEvent(false);
+                }
+                break;
+            }
+            case MotionEvent.ACTION_UP: {
+                Log.d("VDP", "ACTION_UP");
+
+                break;
+            }
+            default:
+                break;
         }
 
         mLastX = x;
