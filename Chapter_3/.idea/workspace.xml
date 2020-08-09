@@ -12,8 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29f66dd3-f4cb-40d0-a57c-c751da8103b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ryg/chapter_3/ui/HorizontalScrollViewEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ryg/chapter_3/ui/HorizontalScrollViewEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ryg/chapter_3/ui/ListViewEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ryg/chapter_3/ui/ListViewEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
